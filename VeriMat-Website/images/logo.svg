@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" role="img" aria-label="VeriMat Materials Testing Laboratory logo">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A7FFEB"/>
+      <stop offset="100%" stop-color="#14655B"/>
+    </linearGradient>
+    <linearGradient id="markGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14655B"/>
+      <stop offset="100%" stop-color="#002B36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mark: geometric V formed by a flask + soil layer -->
+  <g transform="translate(6,6)">
+    <circle cx="62" cy="62" r="60" fill="#002B36"/>
+    <circle cx="62" cy="62" r="60" fill="none" stroke="url(#markGrad)" stroke-width="2.5"/>
+
+    <!-- soil layer arcs (earth) -->
+    <path d="M22 78 Q62 92 102 78" fill="none" stroke="url(#markGradDark)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M28 90 Q62 101 96 90" fill="none" stroke="#14655B" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- V shape / flask silhouette in mint -->
+    <path d="M40 30 L62 82 L84 30" fill="none" stroke="url(#markGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- flask neck lines to suggest laboratory glassware -->
+    <line x1="52" y1="24" x2="52" y2="38" stroke="#A7FFEB" stroke-width="6" stroke-linecap="round"/>
+    <line x1="72" y1="24" x2="72" y2="38" stroke="#A7FFEB" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- accuracy point / measurement dot -->
+    <circle cx="62" cy="82" r="5" fill="#A7FFEB"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="146" y="70" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="46" fill="#FFFFFF" letter-spacing="0.5">Veri<tspan fill="#A7FFEB">Mat</tspan></text>
+  <text x="148" y="98" font-family="Poppins, Arial, sans-serif" font-weight="400" font-size="16" fill="#A7FFEB" letter-spacing="2.2">MATERIALS TESTING LABORATORY</text>
+</svg>
